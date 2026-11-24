@@ -23,6 +23,7 @@
 
     <modules>
         <module>pl41-gateway</module>
+        <module>pl41-auth</module>
     </modules>
 
     <!-- 依赖声明 -->
