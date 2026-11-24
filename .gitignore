@@ -1,6 +1,30 @@
 # Compiled class file
 *.class
 
+# Build output and local build metadata
+target/
+build/
+.gradle/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+
+# Local environment and generated configuration
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+bootstrap-local.yml
+bootstrap-local.yaml
+
 # Log file
 *.log
 
